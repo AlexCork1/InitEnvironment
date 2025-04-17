@@ -10,3 +10,4 @@ def test_returnNTimesA_edge_cases():
     assert returnNTimesA(-3, -3) == 9
     assert returnNTimesA(999999, 1) == 999999
     assert returnNTimesA(2**10, 2**5) == 2**15
+    assert returnNTimesA(3, 2) == 9
