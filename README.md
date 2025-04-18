@@ -31,6 +31,7 @@ Returns 0.
 Returns n * a. Currently just returns a. You should implement it.
 
 ## Yaml file:
+```
 name: Run Grading Tests Only
 
 on: [push]
@@ -55,3 +56,4 @@ jobs:
       - name: Run only grading tests
         run: |
           pytest tests/grading_test.py
+```
